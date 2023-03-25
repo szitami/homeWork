@@ -1,0 +1,32 @@
+[00:00:00.000053763 / 00:00:00.000007555] [4194304 bytes] PHPUnit Started (PHPUnit 10.0.18 using PHP 8.1.16 (cli) on Linux)
+[00:00:00.011925797 / 00:00:00.011872034] [4194304 bytes] Test Runner Configured
+[00:00:00.022420641 / 00:00:00.010494844] [6291456 bytes] Test Suite Loaded (3 tests)
+[00:00:00.031973629 / 00:00:00.009552988] [6291456 bytes] Event Facade Sealed
+[00:00:00.032393088 / 00:00:00.000419459] [6291456 bytes] Test Runner Started
+[00:00:00.032821093 / 00:00:00.000428005] [6291456 bytes] Test Suite Sorted
+[00:00:00.033851215 / 00:00:00.001030122] [6291456 bytes] Test Runner Execution Started (3 tests)
+[00:00:00.034223293 / 00:00:00.000372078] [6291456 bytes] Test Suite Started (/home/tom/www/eretsegiEredmeny/tests, 3 tests)
+[00:00:00.036650926 / 00:00:00.002427633] [6291456 bytes] Test Suite Started (tests\szakTest, 3 tests)
+[00:00:00.038710667 / 00:00:00.002059741] [6291456 bytes] Test Preparation Started (tests\szakTest::testInformatikusTeszt)
+[00:00:00.039302504 / 00:00:00.000591837] [6291456 bytes] Test Prepared (tests\szakTest::testInformatikusTeszt)
+[00:00:00.040733720 / 00:00:00.001431216] [6291456 bytes] Assertion Succeeded (Constraint: is false, Value: false)
+[00:00:00.041514136 / 00:00:00.000780416] [6291456 bytes] Assertion Succeeded (Constraint: is true, Value: true)
+[00:00:00.041635426 / 00:00:00.000121290] [6291456 bytes] Test Passed (tests\szakTest::testInformatikusTeszt)
+[00:00:00.043894097 / 00:00:00.002258671] [6291456 bytes] Test Finished (tests\szakTest::testInformatikusTeszt)
+[00:00:00.044064912 / 00:00:00.000170815] [6291456 bytes] Test Preparation Started (tests\szakTest::testAnglisztikaTeszt)
+[00:00:00.044136098 / 00:00:00.000071186] [6291456 bytes] Test Prepared (tests\szakTest::testAnglisztikaTeszt)
+[00:00:00.044278218 / 00:00:00.000142120] [6291456 bytes] Assertion Succeeded (Constraint: is false, Value: false)
+[00:00:00.044477047 / 00:00:00.000198829] [6291456 bytes] Assertion Succeeded (Constraint: is true, Value: true)
+[00:00:00.044534226 / 00:00:00.000057179] [6291456 bytes] Test Passed (tests\szakTest::testAnglisztikaTeszt)
+[00:00:00.044655457 / 00:00:00.000121231] [6291456 bytes] Test Finished (tests\szakTest::testAnglisztikaTeszt)
+[00:00:00.044825050 / 00:00:00.000169593] [6291456 bytes] Test Preparation Started (tests\szakTest::testTobbletPontokTeszt)
+[00:00:00.044887058 / 00:00:00.000062008] [6291456 bytes] Test Prepared (tests\szakTest::testTobbletPontokTeszt)
+[00:00:00.045721326 / 00:00:00.000834268] [6291456 bytes] Assertion Failed (Constraint: is identical to 0, Value: 68)
+[00:00:00.050092539 / 00:00:00.004371213] [6291456 bytes] Test Failed (tests\szakTest::testTobbletPontokTeszt)
+                                                          Failed asserting that 68 is identical to 0.
+[00:00:00.050406918 / 00:00:00.000314379] [6291456 bytes] Test Finished (tests\szakTest::testTobbletPontokTeszt)
+[00:00:00.050788464 / 00:00:00.000381546] [6291456 bytes] Test Suite Finished (tests\szakTest, 3 tests)
+[00:00:00.050928040 / 00:00:00.000139576] [6291456 bytes] Test Suite Finished (/home/tom/www/eretsegiEredmeny/tests, 3 tests)
+[00:00:00.051338672 / 00:00:00.000410632] [6291456 bytes] Test Runner Execution Finished
+[00:00:00.051417983 / 00:00:00.000079311] [6291456 bytes] Test Runner Finished
+[00:00:00.058200808 / 00:00:00.006782825] [6291456 bytes] PHPUnit Finished (Shell Exit Code: 1)
